@@ -10,7 +10,6 @@ Once you have translate-shell installed, you can install this package using the 
 
 ```bash
 espanso install quick-translate --git https://github.com/p0ly60n/quick-translate --external
-espanso restart
 ```
 
 ## Usage
