@@ -183,9 +183,9 @@ matches:
         type: form
         params:
           layout: |
-            source:
+            Source:
             [[source]]
-            target:
+            Target:
             [[target]]
             Text:
             [[text]]
