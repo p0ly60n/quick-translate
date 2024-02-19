@@ -1,6 +1,6 @@
 # Espanso Translate-Shell Extension
 
-This package utilizes the functionality of [translate-shell](https://github.com/soimort/translate-shell) to translate texts into various languages using the [Espanso Open-Source Text-Expander Project](https://github.com/espanso/espanso).
+This package utilizes the functionality of [translate-shell](https://github.com/soimort/translate-shell) to translate texts into various languages using [Espanso Open-Source Text-Expander](https://github.com/espanso/espanso).
 
 ## Installation
 
