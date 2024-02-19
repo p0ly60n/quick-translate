@@ -14,4 +14,5 @@ espanso install quick-translate --git https://github.com/p0ly60n/quick-translate
 
 ## Usage
 
-Type `::trans` to open the form and then enter your to and from languages and the text you want to translate. The translated text will be outputted.
+- `::trans`: Translates the selected text to the target language (default: English)
+- `::etrans`: Extended Translate - Translates the Text from a source language (default: German) to a target language (default: English)
