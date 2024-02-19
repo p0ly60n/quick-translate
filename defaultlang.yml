@@ -3,8 +3,8 @@ global_vars:
   - name: sourcelang
     type: echo
     params:
-      German
+      echo: German
   - name: targetlang
     type: echo
     params:
-      English
+      echo: English
