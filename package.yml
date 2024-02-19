@@ -183,6 +183,30 @@ matches:
         type: form
         params:
           layout: |
+            Target:
+            [[target]]
+            Text:
+            [[text]]
+          fields:
+            target:
+              type: choice
+              default: German
+              values:
+                "{{lang}}"
+
+      - name: "output"
+        type: shell
+        params:
+          cmd: "trans -b -t '{{input.target}}' '{{input.text}}'"
+
+  - trigger: "::etrans"
+    label: "Extended Translate"
+    replace: "{{output}}"
+    vars:
+      - name: "input"
+        type: form
+        params:
+          layout: |
             Source:
             [[source]]
             Target:
