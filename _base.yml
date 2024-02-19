@@ -1,0 +1,11 @@
+# Default Variables for the source and target language
+global_vars:
+  - name: source-lang
+    type: echo
+    params:
+      German
+  - name: target-lang
+    type: echo
+    params:
+      English
+      
