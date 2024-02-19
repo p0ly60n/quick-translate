@@ -190,7 +190,7 @@ matches:
           fields:
             target:
               type: choice
-              default: German
+              default: English
               values:
                 "{{lang}}"
 
